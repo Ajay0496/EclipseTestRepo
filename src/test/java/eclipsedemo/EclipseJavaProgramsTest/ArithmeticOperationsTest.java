@@ -15,6 +15,10 @@ public class ArithmeticOperationsTest {
         System.out.print("Enter the second number: ");
         double num2 = scanner.nextDouble();  
 
+        double sum = add(num1, num2);
+
+        System.out.println("Sum:  " + sum);
+        System.out.println("Sum:  " + sum);
 
         double difference = subtract(num1, num2);
         System.out.println("Difference: " + difference);
@@ -24,4 +28,8 @@ public class ArithmeticOperationsTest {
 			 num2) {
 			        return num1 - num2;
 			    }
+	public static double add(double num1, double num2) {
+        return num1 + num2;
+    }
+
 }
