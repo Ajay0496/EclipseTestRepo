@@ -26,6 +26,9 @@ public class ArithmeticOperationsTest {
         
         double product = multiply(num1, num2);
         System.out.println("Product: " + product);
+        
+        double quotient = divide(num1, num2);
+        System.out.println("Quotient: " + quotient);
 
         scanner.close();
        
@@ -43,6 +46,14 @@ public class ArithmeticOperationsTest {
         return num1 * num2;
     }
 	
-	
+	public static double divide(double num1, double num2)  
+	 {
+	        if (num2 == 0) {
+	            System.out.println("Error:  Division by zero is not allowed.");
+	            return 0.0; // Or throw an exception
+	        } else {
+	            return num1 / num2;
+	        }
+	    }
 
 }
