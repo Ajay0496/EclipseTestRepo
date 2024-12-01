@@ -18,6 +18,7 @@ public class ArithmeticOperationsTest {
 
         double sum = add(num1, num2);
         System.out.println("Sum:  " + sum);
+        System.out.println("Sum:  " + sum);
         scanner.close();
 	}
 	public static double add(double num1, double num2) {
