@@ -22,7 +22,14 @@ public class ArithmeticOperationsTest {
 
         double difference = subtract(num1, num2);
         System.out.println("Difference: " + difference);
+
+        
+        double product = multiply(num1, num2);
+        System.out.println("Product: " + product);
+
         scanner.close();
+       
+        
 	}
 	public static double subtract(double num1, double  
 			 num2) {
@@ -31,5 +38,11 @@ public class ArithmeticOperationsTest {
 	public static double add(double num1, double num2) {
         return num1 + num2;
     }
+	
+	public static double multiply(double num1, double num2) {
+        return num1 * num2;
+    }
+	
+	
 
 }
