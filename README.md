@@ -54,6 +54,9 @@ saucelabs-mobile-web/
 └── SaubeLabsMobileWebE2E.xml
 ```
 
+![image](https://github.com/user-attachments/assets/ad089c3e-7065-46af-9305-4309d92ec530)
+
+
 ## 🧪 Test Scenarios
 
 ### End-to-End Shopping Flow
